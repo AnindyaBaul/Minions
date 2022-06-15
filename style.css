@@ -1,6 +1,14 @@
 body{
     background-image: linear-gradient(90deg,#F1BA3C,#F1E36A,#F1BA3C);
 }
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+.love{
+    font-size: 60px;
+    color: red;
+ text-shadow:  0 0 20px tomato;
+}
 .m-body{
     height:200px;
     /* aspect-ratio: 1; */
@@ -328,7 +336,8 @@ border-radius: 20px 20px 115px 115px;
 @media only screen and (max-width:688px){
 
     body{
-        height: auto!important;
+        height: 50vh!important;
+        flex-direction: column;
     }
 .m-cont{
     transform: scale(0.5);
@@ -337,6 +346,16 @@ border-radius: 20px 20px 115px 115px;
 .m-body-3{
     position: relative;
     bottom: 2px;
+    }
+    .m-text{
+        position: absolute;
+        bottom: 80px;
+    }
+
+    .love{
+        position: absolute;
+        top: -600px;
+        font-size: 100px;
     }
 
 }
