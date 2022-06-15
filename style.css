@@ -1,0 +1,342 @@
+body{
+    background-image: linear-gradient(90deg,#F1BA3C,#F1E36A,#F1BA3C);
+}
+.m-body{
+    height:200px;
+    /* aspect-ratio: 1; */
+    width:244px;
+    background-color:#F9F049;
+    border-radius: 115px 115px 0 0;
+    /* border: 1px solid white; */
+    overflow: hidden;
+
+}
+
+
+.chosma{
+    height: 80px;
+    aspect-ratio: 1;
+  
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 0 15px darkgray;
+
+
+}
+.eye{
+    height: 70px;
+    width: 83px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye-ball{
+    height: 20px;
+    aspect-ratio: 1;
+    background-color: black;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #9A6F5A;
+}
+
+.hing-1{
+    height: 30px;
+    width: 12px;
+    background-color: gray;
+    z-index: 1;
+    position: relative;
+    right: 14px;
+}
+.hing-2{
+    height: 30px;
+    width: 12px;
+    background-color: gray;
+    z-index: 1;
+    position: relative;
+    left: 12px;
+}
+.belt-1{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(48, 47, 47);
+}
+.belt-2{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(48, 47, 47);
+}
+.black-d1{
+    height: 5px;
+    width: 70px;
+    background-color: black;
+}
+
+.m-body-2{
+    height:148px;
+ width: 244px;
+    background-color:#F9F049;
+    overflow: hidden;
+    /* border: 1px solid red; */
+
+
+
+}
+.mouth{
+    height: 20px;
+    width:80px;
+    background-color:transparent;
+    border-radius: 0 0 40px 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid black;
+}
+.dress-part1{
+    height: 80px;
+    width: 170px;
+    /* background-color: #54728A; */
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 80px solid  #54728A;
+    
+
+    
+}
+.hata-belt1{
+    height:28px;
+    width: 80px;
+    background-color: #54728A;
+    border: 1px solid black;
+    transform: rotate(23deg);
+    position: absolute;
+    margin-right: 180px;
+    margin-top: 34px;
+    z-index: 1;
+    
+}
+.hata-belt2{
+    height:28px;
+    width: 80px;
+    background-color: #54728A;
+    border: 1px solid black;
+    transform: rotate(-23deg);
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 34px;
+    z-index: 1;
+}
+
+i{
+    z-index: 1;
+    padding-top: 28px;
+    font-weight: 900;
+    font-size: 11px;
+}
+.poket{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    border-radius: 0 0 20px 20px;
+}
+.m-poket{
+font-size: 30px;
+padding-bottom: 27px;
+color:white;
+}
+
+.m-body-3{
+height: 150px;
+width:270px;
+background-color: #54728A;
+border-radius: 20px 20px 115px 115px;
+}
+.pant-poket-1{
+    height: 30px;
+    width:60px;
+    background-color:transparent;
+    border-radius: 0 0 40px 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid black;
+    transform: rotate(-28deg);
+    position: absolute;
+    top: 10px;
+
+}
+
+.pant-poket-2{
+    height: 30px;
+    width:60px;
+    background-color:transparent;
+    border-radius: 0 0 40px 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid black;
+    transform: rotate(28deg);
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.paa{
+    bottom: 10px;
+}
+.leg-1{
+    height: 50px;
+    width: 40px;
+    background-color: #54728A;
+    /* border-radius: 0 0 30px 30px; */
+
+}
+.leg-2{
+    height: 50px;
+    width: 40px;
+    background-color: #54728A;
+ 
+    
+
+}
+.jota1{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border-radius: 40%;
+    transform: rotate(-15deg);
+}
+.jota2{
+    height: 30px;
+    width: 100px;
+    background-color:black;
+    border-radius: 40%;
+    transform: rotate(15deg);
+}
+.shoe{
+    bottom: 15px;
+}
+.hand-1{
+    height: 40px;
+    width: 130px;
+    background-color: #F9F049;
+    /* border-radius: 10px 0 0 30px; */
+    transform: rotateZ(30deg);
+    position: relative;
+    left: 30px;
+
+}
+.hand-2{
+    height: 40px;
+    width: 130px;
+    background-color: #F9F049;
+    transform: rotateZ(-30deg);
+    position: relative;
+    right: 30px;
+
+}
+.hand-glubs-1{
+    height: 38px;
+    width: 40px;
+    background-color: black;
+    border-radius:  15px 0 0 15px ;
+    transform: rotateZ(30deg);
+    position: relative;
+    left: 50px;
+    bottom: 38px;
+}
+.hand-glubs-2{
+    height: 38px;
+    width: 40px;
+    background-color: black;
+    border-radius: 0 15px 15px 0;
+    transform: rotateZ(-30deg);
+    position: relative;
+    right: 50px;
+    bottom: 38px;
+}
+.finger{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -2px;
+    bottom: 30px;
+    transform: rotate(-15deg);
+}
+.finger2{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    bottom: 10px;
+    transform: rotate(-10deg);
+  
+}
+.finger3{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    bottom: 0px;
+    transform: rotate(-10deg);
+ 
+}
+/*  */
+.fin{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -9px;
+    bottom: 30px;
+    transform: rotate(15deg);
+}
+.fin2{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    bottom: 10px;
+    transform: rotate(10deg);
+  
+}
+.fin3{
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    bottom: 0px;
+    transform: rotate(10deg);
+ 
+}
+
+@media only screen and (max-width:688px){
+
+    body{
+        height: auto!important;
+    }
+.m-cont{
+    transform: scale(0.5);
+}
+
+.m-body-3{
+    position: relative;
+    bottom: 2px;
+    }
+
+}
